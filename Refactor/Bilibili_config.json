@@ -1,7 +1,12 @@
 {
   "Users": [
     {
-      "Cookie": ""    
+      "Cookie": ""
+    }
+  ],
+  "Unfollows": [
+    {
+      "number": 1
     }
   ]
 }
