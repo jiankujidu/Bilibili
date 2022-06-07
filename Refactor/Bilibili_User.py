@@ -82,3 +82,21 @@ class UserElement:
             self.logger.info("请检查文件路径是否存在或者文件是否正确，文件应该与当前文件在同一目录下")
             self.logger.error(e)
         return self.Num
+
+    def fetch_page(self):
+        try:
+            with open('./Bilibili_config.json', 'r', encoding='utf-8') as f:
+                page = json.load(f)
+                return page['max_page']
+        except Exception as e:
+            self.logger.info(e)
+            return 0
+
+    def fetch_thread(self):
+        try:
+            with open('./Bilibili_config.json', 'r', encoding='utf-8') as f:
+                thread = json.load(f)
+                return thread['max_thread']
+        except Exception as e:
+            self.logger.info(e)
+            return 0
