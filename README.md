@@ -1,11 +1,22 @@
 # Bilibili_Python
-仅供个人学习
+## 仅供个人学习，不得利用该仓库代码牟利，仅供学习参考
 我为什么写这个呢,主要就是闲的，其次就是我手机刷的青龙2.12.2模块运行不了 RayWangQvQ/BiliBiliToolPro 所以就写这个，其次就是想练习一下爬虫
 目前功能还没有完善，完善后会进行一次代码封装去除多余函数。
 可以关注我B站 猫三骂骂咧咧的说
 有建议的功能可以告诉我我尽量加上
 新手，不喜勿喷，不喜欢用觉得垃圾可以不用，不用骂我垃圾，写的垃圾是学艺不精ok
-## 注意：拉要5个py文件一个config.json 在青龙之需要挂着Bilibili_Daily.py和Bilibili_CT.py(一个任务，一个天选，一个取关) 感兴趣可以给我点个star
+会青龙拉库命令的可以告诉我我还不会配置😂
+## 报错的不用反馈了，累了。没人帮测试，我自己都没什么报错，根本不知道怎么修。。。。 骂垃圾的爱用不用，配置文件看都不看，直接问什么错
+
+## 感兴趣可以给我点个star  不用拉配置文件了，运行user.py就会生成配置文件的了，把cookie填进去就好了
+
+6.8 新配置，可自定义每个视频投币数量 1-2之间 ，每个py都可运行，user可查看cookie是否读出来，method可查看cookie有效 多账户如图：
+![image](https://user-images.githubusercontent.com/63834404/172534292-379beceb-fa2d-42dc-ab4e-39cb965181fc.png)
+
+6.7 修复了天选部分bug,新增bug，待会更新daily bug
+
+6.6 删除原来的天选，新的配置，线程可设置1到7，最好就是3避免并发冲突，代码重构了一部分，可设置最大扫描页数 如图 ![image](https://user-images.githubusercontent.com/63834404/172145153-d9772e37-55df-4455-b6e3-e616fdc32469.png)
+
 
 6.4 新增取关up主，配置文件更新，在refactor里看，需要取关多少就写多少，多账户同cookie格式填两个num 如图![image](https://user-images.githubusercontent.com/63834404/171981480-0dff8dea-f96f-4aef-82e0-7e85e333de39.png)
 
